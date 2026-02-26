@@ -1,0 +1,5 @@
+// Title: Longest Common Prefix
+            // Difficulty: Unknown
+            // Language: undefined
+            // Link: https://leetcode.com/problems/longest-common-prefix/
+
