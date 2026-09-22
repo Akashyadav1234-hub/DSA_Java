@@ -3,16 +3,11 @@
             // Language: Java
             // Link: https://leetcode.com/problems/majority-element-ii/
 
-            else if(num==num2){
-                count2++;
-            }
-        }
-            int n=arr.length;
+        Map<Integer, Integer> elementCountMap = new HashMap<>
+        ();
         
-        if(count1>n/3)
-            answer.add(num1);
-        
-        if(count2>n/3)
-            answer.add(num2);
-        
-        return answer;
+        // Iterate through the input array to count element 
+class Solution {
+    public List<Integer> majorityElement(int[] nums) {
+        // Create a frequency map to store the count of each 
+        element
